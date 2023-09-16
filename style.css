@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(32, 29, 29);
+  color: rgb(180, 186, 191);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset 0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  
+}
+li{
+  list-style:none;
+  padding: 10px;
+}
+
+.image-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
