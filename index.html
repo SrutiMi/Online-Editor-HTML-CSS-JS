@@ -9,6 +9,7 @@
 <body>
    <header>
        <img src="imgs/body-image" alt="developer" class="image-logo">
+       <h1>Online Editor</h1>
       <nav >
         <ul class="nav-links">
           <li><a href="#html-editor">HTML Editor</a></li>
@@ -18,25 +19,29 @@
       </nav>
    </header>
    <hr>
-    <img src="imgs/body2.jpg" alt="body-image">
-    <hr>
+    
    <main>
     <section id="html-editor">
        <h3>HTML Editor</h3>
        <textarea rows="30" cols="30" class="html-text" placeholder="Enter your html code over here"></textarea>
     </section>
+    <section class="vertical-line"></section>
     <section id="css-editor">
       <h3>CSS Editor</h3>
       <textarea  cols="30" rows="30" class="css-text" placeholder="Enter your css code over here"></textarea>
     </section>
+    <section class="vertical-line"></section>
     <section id="js-editor">
       <h3>Javascript Editor</h3>
-      <textarea cols="30" rows="30" class="js-text" placeholder="Enter your css code over here"></textarea>
+      <textarea cols="30" rows="30" class="js-text" placeholder="Enter your JS code over here"></textarea>
     </section>
+    
    </main>
-  
-   <footer><button class="run-code">RUN CODE</button></footer>
-      <section>
+   <br><br><br><hr>
+ 
+   <div class="button-div"><button class="run-code">RUN CODE</button></div>
+   <br><br>
+      <section class="OUTPUT">
         <h3>OUTPUT</h3>
         <iframe class="iframe"></iframe>
 
