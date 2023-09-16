@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+       <img src="imgs/body-image" alt="developer" class="image-logo">
+      <nav>
+        <ul>
+          <li><a href="#html-editor">HTML Editor</a></li>
+          <li><a href="#css-editor">CSS Editor</a></li>
+          <li><a href="#js-editor">Javascript Editor</a></li>
+        </ul>
+      </nav>
+   </header>
+   <hr>
+    <img src="imgs/body2.jpg" alt="body-image">
+    <hr>
+   <main>
+    <section id="html-editor">
+       <h3>HTML Editor</h3>
+       <textarea rows="30" cols="30" class="html-text" placeholder="Enter your html code over here"></textarea>
+    </section>
+    <section id="css-editor">
+      <h3>CSS Editor</h3>
+      <textarea  cols="30" rows="30" class="css-text" placeholder="Enter your css code over here"></textarea>
+    </section>
+    <section id="js-editor">
+      <h3>Javascript Editor</h3>
+      <textarea cols="30" rows="30" class="js-text" placeholder="Enter your css code over here"></textarea>
+    </section>
+   </main>
+  
+   <footer><button class="run-code">RUN CODE</button></footer>
+      <section>
+        <h3>OUTPUT</h3>
+        <iframe class="iframe"></iframe>
+
+      </section>
+
+   <script src="script.js"></script>
+</body>
+</html>
