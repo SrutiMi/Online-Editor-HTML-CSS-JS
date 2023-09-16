@@ -1,7 +1,9 @@
 body{
-  background-color: rgb(32, 29, 29);
+  /* background-color: rgb(32, 29, 29); */
+  background-color: black;
   color: #494747;
   margin:0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -11,8 +13,9 @@ header{
   justify-content: space-between;
   align-items: center;
   padding-bottom: 0;
-  box-shadow: inset 0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 10px 10px 10px rgba(67, 65, 65, 0.5);
   background-color: rgb(32, 29, 29);
+  flex-wrap: wrap;
 }
 hr{
   border: rgba(52, 53, 52, 0.963) dotted 0.08px;
@@ -60,14 +63,20 @@ main{
 
 textarea{
   border: solid rgb(35, 34, 34) 1px;
-  box-shadow:  0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow:  0px 10px 10px 10px rgba(83, 80, 80, 0.5);
   width:100%;
+  font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
   
 }
 .vertical-line {
   border-left: 1px solid rgb(250, 247, 247);
   padding:10px;
   border-left: dotted 0.1px;
+  
 }
 textarea::placeholder{
   color: rgb(152, 168, 181);
@@ -105,9 +114,10 @@ button{
 
 }
 .iframe {
-  border: rgb(67, 63, 63) dotted 0.25px;
+  border: rgb(9, 8, 8) dotted 0.25px;
+  background-color:rgb(43, 42, 42);
   width: 100%;
-  height: auto;
-  margin: 10px;
+  height: 50vh;
+  
   
 }

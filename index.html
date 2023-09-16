@@ -3,37 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@200;600&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
   <title>Online editor</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <header>
        <img src="imgs/body-image" alt="developer" class="image-logo">
-       <h1>Online Editor</h1>
+       <h1>Online Code Editor</h1>
       <nav >
         <ul class="nav-links">
-          <li><a href="#html-editor">HTML Editor</a></li>
-          <li><a href="#css-editor">CSS Editor</a></li>
-          <li><a href="#js-editor">Javascript Editor</a></li>
+          <li><a href="#html-text" id="html-editor">HTML Editor</a></li>
+          <li><a href="#css-text" id="css-editor">CSS Editor</a></li>
+          <li><a href="#js-text" id="js-editor">Javascript Editor</a></li>
         </ul>
       </nav>
    </header>
    <hr>
     
+
+   <!-- spellcheck="false" disables the spelling checker -->
    <main>
-    <section id="html-editor">
+    <section >
        <h3>HTML Editor</h3>
-       <textarea rows="30" cols="45" class="html-text" placeholder="Enter your html code over here"></textarea>
+       <textarea rows="25" cols="45" id="html-text" placeholder="Enter your html code over here" spellcheck="false"></textarea>
     </section>
     <section class="vertical-line"></section>
-    <section id="css-editor">
+    <section >
       <h3>CSS Editor</h3>
-      <textarea  cols="45" rows="30" class="css-text" placeholder="Enter your css code over here"></textarea>
+      <textarea  cols="45" rows="25" id="css-text" placeholder="Enter your css code over here" spellcheck="false"></textarea>
     </section>
     <section class="vertical-line"></section>
-    <section id="js-editor">
+    <section >
       <h3>Javascript Editor</h3>
-      <textarea cols="45" rows="30" class="js-text" placeholder="Enter your JS code over here"></textarea>
+      <textarea cols="45" rows="25" id="js-text" placeholder="Enter your JS code over here" spellcheck="false"></textarea>
     </section>
     
    </main>
